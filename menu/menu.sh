@@ -375,7 +375,6 @@ menu
 clear
 clear && clear && clear
 clear;clear;clear
-echo -e "$COLOR1╔═════════════════════════════════════════════════╗${NC}"
 echo -e " $COLOR1╔══════════════════════════════════════════════════════════╗${NC}"
 echo -e " $COLOR1║${NC}${COLBG1}                 ${WH} • RMBL VPN TUNNELING •                  ${NC}$COLOR1║ $NC"
 echo -e " $COLOR1╚══════════════════════════════════════════════════════════╝${NC}"
@@ -480,7 +479,7 @@ menu
 function updatews(){
 cd
 rm -rf *
-wget https://raw.githubusercontent.com/vip-VPN/vip/main/menu/install-up.sh &> /dev/null
+wget https://raw.githubusercontent.com/besajom/vip/main/menu/install-up.sh &> /dev/null
 chmod +x install_up.sh
 ./install_up.sh
 }
