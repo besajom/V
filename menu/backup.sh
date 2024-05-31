@@ -21,15 +21,15 @@ checking_sc() {
         echo -ne
     else
         systemctl stop nginx
-        echo -e "$COLOR1גגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגג${NC}"
-        echo -e "$COLOR1ג${NC}${COLBG1}          ${WH}ג¢ AUTOSCRIPT PREMIUM ג¢                 ${NC}$COLOR1ג $NC"
-        echo -e "$COLOR1גגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגג${NC}"
-        echo -e "$COLOR1גגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגג${NC}"
-        echo -e "$COLOR1ג            ${RED}PERMISSION DENIED !${NC}                  $COLOR1ג"
-        echo -e "$COLOR1ג   ${yl}Your VPS${NC} $ipsaya \033[0;36mHas been Banned${NC}      $COLOR1ג"        
-        echo -e "$COLOR1ג     ${yl}Buy access permissions for scripts${NC}          $COLOR1ג"
-        echo -e "$COLOR1ג             \033[0;32mContact Your Admin ${NC}                 $COLOR1ג"
-        echo -e "$COLOR1גגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגגג${NC}"
+        echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
+        echo -e "$COLOR1│${NC}${COLBG1}          ${WH}• AUTOSCRIPT PREMIUM •                 ${NC}$COLOR1│$NC"
+        echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
+        echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
+        echo -e "$COLOR1│            ${RED}PERMISSION DENIED !${NC}                  │"
+        echo -e "$COLOR1│   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}                  │"
+        echo -e "$COLOR1│     \033[0;33mBuy access permissions for scripts${NC}          │"
+        echo -e "$COLOR1│             \033[0;33mContact Your Admin ${NC}                 │"
+        echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
         exit
     fi
 }
