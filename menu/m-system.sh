@@ -71,26 +71,26 @@ echo -e "\033[0;33m]\033[1;37m -\033[1;32m Succes !\033[1;37m"
 tput cnorm
 }
 sldns() {
-wget https://raw.githubusercontent.com/VIP-VPN/vip/main/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
 }
 res1() {
-wget https://raw.githubusercontent.com/VIP-VPN/vip/main/slowdns/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/slowdns/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
 clear
 }
 res2() {
-wget https://raw.githubusercontent.com/VIP-VPN/vip/main/slowdns/rmbl1.sh && chmod +x rmbl1.sh && ./rmbl1.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/slowdns/rmbl1.sh && chmod +x rmbl1.sh && ./rmbl1.sh
 clear
 }
 res3() {
-wget https://raw.githubusercontent.com/VIP-VPN/vip/main/slowdns/rmbl2.sh && chmod +x rmbl2.sh && ./rmbl2.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/slowdns/rmbl2.sh && chmod +x rmbl2.sh && ./rmbl2.sh
 clear
 }
 res4() {
-wget https://raw.githubusercontent.com/VIP-VPN/vip/main/slowdns/rmbl3.sh && chmod +x rmbl3.sh && ./rmbl3.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/slowdns/rmbl3.sh && chmod +x rmbl3.sh && ./rmbl3.sh
 clear
 }
 res5() {
-wget https://raw.githubusercontent.com/VIP-VPN/vip/main/slowdns/rmbl4.sh && chmod +x rmbl4.sh && ./rmbl4.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/slowdns/rmbl4.sh && chmod +x rmbl4.sh && ./rmbl4.sh
 clear
 }
 clear
@@ -131,7 +131,7 @@ echo -e "$COLOR1└────────────────────�
 echo -e "$COLOR1┌──────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1│  [ 1 ]  \033[1;37mDomain xxx.xnxxms.cloud       ${NC}"
 echo -e "$COLOR1│  "
-echo -e "$COLOR1│  [ 2 ]  \033[1;37mDomain xxx.adijaya.cloud     ${NC}"
+#echo -e "$COLOR1│  [ 2 ]  \033[1;37mDomain xxx.adijaya.cloud     ${NC}"
 #echo -e "$COLOR1│  "
 #echo -e "$COLOR1│  [ 3 ]  \033[1;37mDomain xxx.adijayavvip.cloud ${NC}"
 #echo -e "$COLOR1│  "
