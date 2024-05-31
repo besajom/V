@@ -2,7 +2,7 @@
 # Proxy For Edukasi & Imclass
 
 # Link Hosting Kalian
-RMBL="raw.githubusercontent.com/RMBL-ZERO/vip/main/install"
+RMBL="raw.githubusercontent.com/besajom/vip/main/install"
 
 wget -O /usr/local/bin/ws-dropbear https://raw.githubusercontent.com/RMBL-ZERO/vip/main/sshws/ws-dropbear
 chmod +x /usr/local/bin/ws-dropbear
@@ -32,14 +32,14 @@ systemctl enable ws-dropbear.service
 systemctl start ws-dropbear.service
 systemctl restart ws-dropbear.service
 
-wget -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/RMBL-ZERO/vip/main/sshws/ws-ovpn.py
+wget -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/besajom/vip/main/sshws/ws-ovpn.py
 chmod +x /usr/local/bin/ws-ovpn
 
 # Installing Service
 cat > /etc/systemd/system/ws-ovpn.service << END
 [Unit]
 Description=Python Proxy Mod By RMBL
-Documentation=https://t.me/rmblvpn
+Documentation=https://t.me/rmblvpn1
 After=network.target nss-lookup.target
 
 [Service]
@@ -59,7 +59,7 @@ systemctl daemon-reload
 systemctl enable ws-ovpn
 systemctl restart ws-ovpn
 
-wget -O /usr/local/bin/ws-stunnel https://raw.githubusercontent.com/RMBL-ZERO/vip/main/sshws/ws-stunnel
+wget -O /usr/local/bin/ws-stunnel https://raw.githubusercontent.com/besajom/vip/main/sshws/ws-stunnel
 chmod +x /usr/local/bin/ws-stunnel
 
 # Installing Service
