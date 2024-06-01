@@ -299,7 +299,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-wget --no-check-certificate http://rmbl-vpn.my.id/install/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/install/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
 clear
 }
 res2() {
@@ -618,7 +618,7 @@ cd
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
 clear
-wget --no-check-certificate http://rmbl-vpn.my.id/tools.sh &> /dev/null
+wget https://raw.githubusercontent.com/besajom/vip/main/tools.sh &> /dev/null
 chmod +x tools.sh 
 bash tools.sh
 clear
@@ -657,42 +657,42 @@ fun_bar() {
 
 
 res2() {
-wget --no-check-certificate http://rmbl-vpn.my.id/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 clear
 } 
 
 res3() {
-wget --no-check-certificate http://rmbl-vpn.my.id/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
 }
 
 res4() {
-wget --no-check-certificate http://rmbl-vpn.my.id/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 }
 
 res5() {
-wget --no-check-certificate http://rmbl-vpn.my.id/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
 }
 
 res6() {
-wget --no-check-certificate http://rmbl-vpn.my.id/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 clear
 }
 
 res7() {
-wget --no-check-certificate http://rmbl-vpn.my.id/menu/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/menu/update.sh && chmod +x update.sh && ./update.sh
 clear
 }
 
 res8() {
-wget --no-check-certificate http://rmbl-vpn.my.id/slowdns/installsl.sh && chmod +x installsl.sh && bash installsl.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/slowdns/installsl.sh && chmod +x installsl.sh && bash installsl.sh
 clear
 }
 
 res9() {
-wget --no-check-certificate http://rmbl-vpn.my.id/install/udp-custom.sh && chmod +x udp-custom.sh && bash udp-custom.sh
+wget https://raw.githubusercontent.com/besajom/vip/main/install/udp-custom.sh && chmod +x udp-custom.sh && bash udp-custom.sh
 clear
 }
 echo -e "${tyblue}┌──────────────────────────────────────────┐${NC}"
@@ -796,7 +796,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS http://rmbl-vpn.my.id//versi  )
+serverV=$( curl -sS https://raw.githubusercontent.com/besajom/vip/main/versi  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
