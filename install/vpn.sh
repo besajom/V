@@ -4,7 +4,7 @@
 # By RMBL
 # ==================================================
 # Link Hosting Kalian
-RMBL="raw.githubusercontent.com/VIP-VPN/vip/main/install/"
+RMBL="raw.githubusercontent.com/besajom/vip/main/install/"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
@@ -18,7 +18,7 @@ apt install openvpn easy-rsa unzip -y
 apt install openssl iptables iptables-persistent -y
 mkdir -p /etc/openvpn/server/easy-rsa/
 cd /etc/openvpn/
-wget https://raw.githubusercontent.com/VIP-VPN/vip/main/install/vpn.zip
+wget https://raw.githubusercontent.com/besajom/vip/main/install/vpn.zip
 unzip vpn.zip
 rm -f vpn.zip
 chown -R root:root /etc/openvpn/server/easy-rsa/
